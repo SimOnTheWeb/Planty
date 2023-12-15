@@ -1,0 +1,31 @@
+/* HEADER */
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  width: 20%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  padding-top: 20px;
+}
+
+.cssnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+body {
+  background: red;
+}
