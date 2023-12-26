@@ -1,18 +1,59 @@
-.wpcf7-form-control {
-  color: blue !important;
+.label-form {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  margin-top: -20px;
 }
 
-.wpcf7-text {
-  color: green !important;
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us input[type="submit"],
+textarea {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.wpcf7-validates-as-required {
-  color: blue !important;
+.contact-us input[id="message"],
+textarea {
+  height: 200px;
+  padding-top: 10px;
 }
 
-.wpcf7-form [type="submit"] {
-  width: 200px;
-  margin: auto;
+.contact-us input[type="text"]:focus,
+.contact-us input[type="email"]:focus,
+.contact-us textarea:focus {
+  outline: none;
+}
+
+.contact-us input[type="submit"] {
+  width: 50%;
   display: flex;
   justify-content: center;
+  background-color: #e0b9b4;
+  height: 50px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  padding: 10px 40px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"] {
+  padding: 0%;
 }
