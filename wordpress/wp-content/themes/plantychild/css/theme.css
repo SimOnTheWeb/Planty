@@ -1,0 +1,18 @@
+.wpcf7-form-control {
+  color: blue !important;
+}
+
+.wpcf7-text {
+  color: green !important;
+}
+
+.wpcf7-validates-as-required {
+  color: blue !important;
+}
+
+.wpcf7-form [type="submit"] {
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
