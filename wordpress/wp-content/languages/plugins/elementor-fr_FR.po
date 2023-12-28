@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-12-08 14:31:26+0000\n"
+"PO-Revision-Date: 2023-12-21 11:33:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,26 @@ msgstr ""
 #: core/files/uploads-manager.php:281
 msgid "Invalid file name."
 msgstr "Nom de fichier invalide."
+
+#: modules/promotions/widgets/pro-widget-promotion.php:58
+msgid "This result includes the Elementor Pro %s widget. Upgrade now to unlock it and grow your web creation toolkit."
+msgstr "Ce résultat inclut le widget Elementor PRO %s. Mettez à niveau maintenant pour le déverrouiller et développer votre boîte à outils de création Web."
+
+#: modules/element-manager/ajax.php:113
+msgid "Unexpected elements data."
+msgstr "Données d’éléments inattendues."
+
+#: modules/element-manager/ajax.php:107
+msgid "No elements to save."
+msgstr "Aucun élément à enregistrer."
+
+#: modules/element-manager/ajax.php:86
+msgid "WordPress Widgets"
+msgstr "Widgets WordPress"
+
+#: modules/element-manager/ajax.php:76
+msgid "Invalid nonce."
+msgstr "Nonce non valide."
 
 #. translators: %s: Recommended PHP version.
 #: modules/system-info/reporters/server.php:132
@@ -28,9 +48,22 @@ msgstr "Elementor pleine largeur"
 msgid "Elementor Canvas"
 msgstr "Elementor canevas"
 
+#: modules/image-loading-optimization/module.php:258
+msgid "An image should not be lazy-loaded and marked as high priority at the same time."
+msgstr "Une image ne doit pas être chargée \"paresseusement\" (lazy-load) et marquée comme \"hautement prioritaire\" en même temps."
+
+#. translators: 1: fetchpriority attribute, 2: lazy loading attribute.
+#: modules/image-loading-optimization/module.php:51
+msgid "Applying %1$s on LCP image and %2$s on images below the fold to improve performance scores."
+msgstr "Appliquer %1$s sur le LCP image et %2$s sur les images sous la ligne de flottaison pour améliorer les scores de performance."
+
 #: modules/image-loading-optimization/module.php:47
 msgid "Optimize Image Loading"
 msgstr "Optimiser le chargement des images"
+
+#: modules/gutenberg/module.php:149
+msgid "Use this experiment to reduce unnecessary render-blocking loads, enhancing site performance by dequeuing unused Gutenberg block editor files (styles and scripts)."
+msgstr "Utiliser cette expérience pour limiter les ressources inutiles qui bloquent le rendu, en améliorant les performances du site en mettant en file d’attente les fichiers inutilisés de l’éditeur de blocs Gutenberg (styles et scripts)."
 
 #: modules/gutenberg/module.php:148
 msgid "Optimized Gutenberg Loading"
@@ -47,6 +80,10 @@ msgstr "URL VideoPress"
 #: includes/widgets/video.php:117
 msgid "VideoPress"
 msgstr "VideoPress"
+
+#: includes/widgets/star-rating.php:107
+msgid "You are currently editing a Star Rating widget in its old version. Drag a new Rating widget onto your page to use a newer version, providing better capabilities."
+msgstr "Vous êtes en train de modifier un widget de classement par étoiles dans son ancienne version. Faites glisser un nouveau widget d’évaluation sur votre page pour utiliser une version plus récente, offrant de meilleures fonctionnalités."
 
 #: includes/widgets/rating.php:295
 msgid "Rated %1$s out of %2$s"
@@ -114,6 +151,10 @@ msgstr "Flex de base"
 #: includes/controls/groups/grid-container.php:226
 msgid "Align Content"
 msgstr "Aligner le contenu"
+
+#: includes/controls/groups/flex-container.php:195
+msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
+msgstr "Les éléments présents dans le conteneur peuvent rester sur une seule ligne (pas d'habillage) ou se répartir sur plusieurs lignes (habillage)."
 
 #: includes/controls/groups/flex-container.php:128
 #: includes/controls/groups/grid-container.php:159
@@ -194,6 +235,10 @@ msgstr "Type d’arrière-plan"
 msgid "Classic"
 msgstr "Classique"
 
+#: core/admin/admin-notices.php:408
+msgid "Encountering issues after updating the version? Don’t worry - we’ve collected all the fixes for troubleshooting common issues. %1$sFind a solution%2$s"
+msgstr "Vous rencontrez des problèmes après la mise à jour de la version ? Ne vous inquiétez pas, nous avons rassemblé tous les correctifs pour résoudre les problèmes courants. %1$sTrouvez une solution%2$s"
+
 #: core/admin/admin-notices.php:406
 msgid "The version was updated successfully!"
 msgstr "La version a bien été mise à jour !"
@@ -201,6 +246,11 @@ msgstr "La version a bien été mise à jour !"
 #: app/modules/onboarding/module.php:132
 msgid "You do not have permissions to perform this action."
 msgstr "Vous n’avez pas les droits nécessaires pour effectuer cette action."
+
+#: modules/nested-tabs/widgets/nested-tabs.php:1179
+#: modules/nested-tabs/widgets/nested-tabs.php:1224
+msgid "Tabs. Open items with Enter or Space, close with Escape and navigate using the Arrow keys."
+msgstr "Onglets. Ouvrez des éléments avec Entrer ou Espace, fermez-les avec Echape et naviguez à l'aide des touches fléchées."
 
 #: modules/site-navigation/module.php:66
 msgid "Pages Panel"
@@ -275,9 +325,17 @@ msgstr "Nouveau ! Apps populaires"
 msgid "Apps"
 msgstr "Apps"
 
+#: modules/apps/admin-apps-page.php:25
+msgid "Please note that certain services on this page are developed by third-party companies. When you click on the their action button, you may be redirected to an external website."
+msgstr "Veuillez noter que certains services figurant sur cette page sont développés par des sociétés tierces. Lorsque vous cliquez sur le bouton de leur action, vous pouvez être redirigé vers un site web externe."
+
 #: modules/apps/admin-apps-page.php:17
 msgid "Learn more about this page."
 msgstr "En apprendre plus concernant cette page."
+
+#: modules/apps/admin-apps-page.php:16
+msgid "Boost your web-creation process with add-ons, plugins, and more tools specially selected to unleash your creativity, increase productivity, and enhance your Elementor-powered website."
+msgstr "Augmentez votre processus de création avec des modules complémentaires, des extensions et d’autres outils spécialement sélectionnés pour libérer votre créativité, augmenter votre productivité et améliorer votre site propulsé par Elementor."
 
 #: modules/apps/admin-apps-page.php:15
 msgid "Popular Apps, New Possibilities."
@@ -295,6 +353,11 @@ msgstr "%1$s sur %2$s"
 #: includes/widgets/icon-box.php:206 includes/widgets/image-box.php:193
 msgid "Box"
 msgstr "Boîte"
+
+#. translators: 1: Link open tag, 2: Link open tag, 3: Link close tag.
+#: core/kits/documents/tabs/settings-site-identity.php:59
+msgid "Changes will be reflected only after %1$s saving %3$s and %2$s reloading %3$s preview."
+msgstr "Les modifications ne seront répercutées qu’après %1$s enregistrement des %3$s et %2$s rechargement %3$s aperçus."
 
 #: core/admin/admin.php:628
 msgid "Build Smart with AI"
@@ -360,7 +423,7 @@ msgstr "Ajuster à la taille"
 
 #: includes/widgets/accordion.php:132
 msgid "You are currently editing an Accordion Widget in its old version. Any new Accordion widget dragged into the canvas will be the new Accordion widget, with the improved Nested capabilities."
-msgstr "Vous êtes en train de modifier un widget accordéon dans son ancienne version. Tout nouveau widget accordéon glissé dans le canevas sera le nouveau widget accordéon, avec les capacités d'imbrication améliorées."
+msgstr "Vous êtes en train de modifier un widget accordéon dans son ancienne version. Tout nouveau widget accordéon glissé dans le canevas sera le nouveau widget accordéon, avec les capacités d’imbrication améliorées."
 
 #: includes/frontend.php:1401
 msgid "Go to slide"
@@ -887,9 +950,13 @@ msgstr "Fonctionnalité"
 msgid "Performance"
 msgstr "Performance"
 
+#: app/modules/onboarding/module.php:150
+msgid "There was a problem setting your site name."
+msgstr "Un problème est survenu lors de la définition du nom du site."
+
 #: core/admin/admin-notices.php:363
 msgid "Try it out"
-msgstr "Faites un essai !"
+msgstr "Faites un essai"
 
 #: core/admin/admin-notices.php:360
 msgid "With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed."
@@ -1021,6 +1088,14 @@ msgstr "Importer exporter"
 #: core/common/modules/event-tracker/personal-data.php:24
 msgid "Elementor Event Tracker"
 msgstr "Traqueur d’évènements Elementor"
+
+#: app/modules/onboarding/module.php:257 app/modules/onboarding/module.php:342
+msgid "There was a problem uploading your file."
+msgstr "Un problème est survenu lors du téléversement du fichier."
+
+#: app/modules/onboarding/module.php:207
+msgid "There was a problem setting your site logo."
+msgstr "Un problème est survenu lors de la définition du logo du site."
 
 #: modules/library/documents/page.php:65
 msgid "Add New Page Template"
@@ -1381,6 +1456,12 @@ msgstr "Une erreur est survenue lors de la création du kit."
 #: includes/settings/tools.php:83
 msgid "There's already an active kit."
 msgstr "Il y a déjà un kit actif."
+
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:23
+msgid "Save and manage all of your form submissions in one single place. All within a simple, intuitive place."
+msgstr ""
+"Enregistrer et gérer tous vos envois de formulaires en un seul endroit.\n"
+"Le tout dans un endroit simple et intuitif."
 
 #: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:19
 msgid "Collect Your Form Submissions"
@@ -2513,6 +2594,106 @@ msgstr "Ajouter un élément"
 msgid "Line"
 msgstr "Ligne"
 
+#: includes/widgets/divider.php:288
+msgctxt "Shapes"
+msgid "X"
+msgstr "X"
+
+#: includes/widgets/divider.php:279
+msgctxt "Shapes"
+msgid "Tribal"
+msgstr "Tribal"
+
+#: includes/widgets/divider.php:270
+msgctxt "Shapes"
+msgid "Trees"
+msgstr "Arbres"
+
+#: includes/widgets/divider.php:261
+msgctxt "Shapes"
+msgid "Squares"
+msgstr "Carrés"
+
+#: includes/widgets/divider.php:252
+msgctxt "Shapes"
+msgid "Stripes"
+msgstr "Rayures"
+
+#: includes/widgets/divider.php:243
+msgctxt "Shapes"
+msgid "Leaves"
+msgstr "Feuilles"
+
+#: includes/widgets/divider.php:234
+msgctxt "Shapes"
+msgid "Half Rounds"
+msgstr "Demi-ronds"
+
+#: includes/widgets/divider.php:225
+msgctxt "Shapes"
+msgid "Fir Tree"
+msgstr "Sapin"
+
+#: includes/widgets/divider.php:216
+msgctxt "Shapes"
+msgid "Dots"
+msgstr "Points"
+
+#: includes/widgets/divider.php:207
+msgctxt "Shapes"
+msgid "Rectangles"
+msgstr "Rectangles"
+
+#: includes/widgets/divider.php:199
+msgctxt "Shapes"
+msgid "Parallelogram"
+msgstr "Parallélogramme"
+
+#: includes/widgets/divider.php:191
+msgctxt "Shapes"
+msgid "Rhombus"
+msgstr "Losange"
+
+#: includes/widgets/divider.php:183
+msgctxt "Shapes"
+msgid "Pluses"
+msgstr "Avantages"
+
+#: includes/widgets/divider.php:175
+msgctxt "Shapes"
+msgid "Arrows"
+msgstr "Flèches"
+
+#: includes/widgets/divider.php:159
+msgctxt "Shapes"
+msgid "Wavy"
+msgstr "Ondulé"
+
+#: includes/widgets/divider.php:151
+msgctxt "Shapes"
+msgid "Squared"
+msgstr "Carré"
+
+#: includes/widgets/divider.php:142
+msgctxt "Shapes"
+msgid "Slashes"
+msgstr "Barres obliques"
+
+#: includes/widgets/divider.php:134
+msgctxt "Shapes"
+msgid "Multiple"
+msgstr "Multiple"
+
+#: includes/widgets/divider.php:126
+msgctxt "Shapes"
+msgid "Curved"
+msgstr "Courbé"
+
+#: includes/widgets/divider.php:118
+msgctxt "Shapes"
+msgid "Curly"
+msgstr "Bouclé"
+
 #: includes/widgets/image-gallery.php:44
 msgid "Basic Gallery"
 msgstr "Galerie basique"
@@ -3183,6 +3364,10 @@ msgstr "Masquer la notification"
 #: core/admin/admin-notices.php:278
 msgid "Happy To Help"
 msgstr "Ravi d’aider"
+
+#: core/admin/admin-notices.php:275
+msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
+msgstr "Vous avez créé plus de 10 pages avec Elementor. Super boulot ! Si vous avez une minute, merci de nous aider en laissant un avis 5 étoiles sur WordPress.org."
 
 #: core/admin/admin-notices.php:274
 msgid "Congrats!"
@@ -4446,6 +4631,12 @@ msgstr "<strong>Important :</strong> il est fortement recommandé de <a target=
 msgid "Replace URL"
 msgstr "Remplacement d’URL"
 
+#. translators: 1: Minimum recommended_memory, 2: Preferred memory, 3:
+#. WordPress wp-config memory documentation.
+#: modules/system-info/reporters/server.php:171
+msgid "We recommend setting memory to at least %1$s. (%2$s or higher is preferred) For more information, read about <a href=\"%3$s\">how to increase memory allocated to PHP</a>."
+msgstr "Nous recommandons de définir la mémoire à au moins %1$s. (%2$s ou plus est préférable) Pour plus d’informations, lisez <a href=\"%3$s\">comment augmenter la mémoire allouée à PHP</a>."
+
 #. translators: 1: Human readable time difference, 2: Date.
 #: modules/history/revisions-manager.php:179
 msgid "%1$s ago (%2$s)"
@@ -5049,6 +5240,10 @@ msgstr "Boucle"
 msgid "Video Options"
 msgstr "Options vidéo"
 
+#: includes/controls/groups/background.php:488
+msgid "Video Link"
+msgstr "Lien de la vidéo"
+
 #: includes/widgets/video.php:115
 msgid "Vimeo"
 msgstr "Vimeo"
@@ -5082,6 +5277,10 @@ msgstr "Entière"
 #: includes/controls/gallery.php:92
 msgid "Edit gallery"
 msgstr "Modifier la galerie"
+
+#: includes/controls/groups/background.php:107
+msgid "Slideshow"
+msgstr "Diaporama"
 
 #: includes/elements/column.php:183 includes/widgets/icon-box.php:242
 #: includes/widgets/icon-list.php:551 includes/widgets/image-box.php:229
@@ -6146,7 +6345,7 @@ msgstr "Hauteur minimum"
 #: includes/elements/container.php:542 includes/elements/section.php:337
 #: includes/elements/section.php:386
 msgid "Min Height"
-msgstr "Hauteur min."
+msgstr "Hauteur mini"
 
 #: includes/elements/section.php:336 includes/elements/section.php:385
 msgid "Fit To Screen"

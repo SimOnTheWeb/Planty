@@ -112,3 +112,48 @@
 [2023-12-22 12:44:42 : INFO] - Successfully processed the queue (smush). 5 tasks were processed out of 5. 
 [2023-12-22 12:44:42 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
 [2023-12-22 12:44:42 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2023-12-28 07:54:17 : INFO] - Re_Smush_It_Task with attachment ID : 1280, autocreated on : December 28, 2023 07:54:17 
+[2023-12-28 07:59:20 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-28 07:59:20 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2023-12-28 07:59:20 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2023-12-28 07:59:20 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2023-12-28 07:59:20 : INFO] - Re_Smush_It_Task with attachment ID : 1280, autocreated on : December 28, 2023 07:54:17 
+[2023-12-28 07:59:20 : INFO] - File: fond-decran-commander.png, Compression quality: 92 
+[2023-12-28 07:59:21 : INFO] - Backing up the original image - 2023/12/fond-decran-commander-updraft-pre-smush-original.png 
+[2023-12-28 07:59:22 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-28 07:59:22 : INFO] - Successfully optimized the image - C:\MAMP\htdocs\Planty\wordpress/wp-content/uploads/2023/12/fond-decran-commander.png.Le fichier a été compressé de 6.51 KB à 477 bytes, en économisant 92.85 % à l’aide de WP-Optimize 
+[2023-12-28 07:59:22 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2023-12-28 07:59:22 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2023-12-28 07:59:22 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-28 07:59:22 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2023-12-28 07:59:22 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2023-12-28 12:18:48 : INFO] - Re_Smush_It_Task with attachment ID : 1434, autocreated on : December 28, 2023 12:18:48 
+[2023-12-28 12:23:50 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-28 12:23:50 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2023-12-28 12:23:50 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2023-12-28 12:23:50 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2023-12-28 12:23:51 : INFO] - Re_Smush_It_Task with attachment ID : 1434, autocreated on : December 28, 2023 12:18:48 
+[2023-12-28 12:23:51 : INFO] - File: Canette-nous-rencontrer.png, Compression quality: 92 
+[2023-12-28 12:23:51 : INFO] - Backing up the original image - 2023/12/Canette-nous-rencontrer-updraft-pre-smush-original.png 
+[2023-12-28 12:23:53 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-28 12:23:53 : INFO] - Successfully optimized the image - C:\MAMP\htdocs\Planty\wordpress/wp-content/uploads/2023/12/Canette-nous-rencontrer.png.Le fichier a été compressé de 48.19 KB à 10.03 KB, en économisant 79.18 % à l’aide de WP-Optimize 
+[2023-12-28 12:23:53 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2023-12-28 12:23:53 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2023-12-28 12:23:53 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-28 12:23:53 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2023-12-28 12:23:53 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2023-12-28 15:54:51 : INFO] - Re_Smush_It_Task with attachment ID : 1579, autocreated on : December 28, 2023 03:54:51 
+[2023-12-28 15:59:54 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-28 15:59:54 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2023-12-28 15:59:54 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2023-12-28 15:59:54 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2023-12-28 15:59:54 : INFO] - Re_Smush_It_Task with attachment ID : 1579, autocreated on : December 28, 2023 03:54:51 
+[2023-12-28 15:59:54 : INFO] - File: fond-decran-mobile.png, Compression quality: 92 
+[2023-12-28 15:59:54 : INFO] - Backing up the original image - 2023/12/fond-decran-mobile-updraft-pre-smush-original.png 
+[2023-12-28 15:59:55 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-28 15:59:55 : INFO] - Successfully optimized the image - C:\MAMP\htdocs\Planty\wordpress/wp-content/uploads/2023/12/fond-decran-mobile.png.Le fichier a été compressé de 1.03 KB à 153 bytes, en économisant 85.46 % à l’aide de WP-Optimize 
+[2023-12-28 15:59:55 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2023-12-28 15:59:55 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2023-12-28 15:59:55 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-28 15:59:55 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2023-12-28 15:59:55 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
