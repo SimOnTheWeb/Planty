@@ -37,28 +37,30 @@ add_action('wp_head', 'custom_page_background_color');
 function enregistrement_nav_menus() {
     register_nav_menus(
         array(
-            'Header' => esc_html('Header', 'planty'),
-            'Footer' => esc_html('Footer', 'planty'),
+            'Header' => __('Header'),
+            'Footer' => __('Footer'),
         )
     );
 }
+
+//wp_nav_menu
 
 // Ajout de l'action pour enregistrer les emplacements de menu après la configuration du thème
 add_action('after_setup_theme', 'enregistrement_nav_menus');
 
 
 // Fonction pour ajouter le lien admin
-function menu_admin($menu_items, $args) {
-    if ($args->theme_location == 'Header') {
+function menu_admin($items) {
         if (is_user_logged_in()) {
-            $menu_items .= '<li><a href="http://localhost/Planty/wordpress/boisson-energisante-100-naturelle/admin/">'. __("Admin") .'</a></li>';
-        }
+            $admin_link = '<li class="header_nav_admin_url"><a href="'. admin_url() .'">Admin</a></li>';
+            $position = 312;
+            $items = substr_replace($items, $admin_link, $position, 0);
     }
-    return $menu_items;
+    return $items;
 }
 
 // Hook pour le lien admin dans le header
-add_filter('wp_nav_menu_items', 'menu_admin', 10, 2);
+add_filter('wp_nav_menu_items', 'menu_admin', 10, 1);
 
 
 // Balise de fermeture PHP
