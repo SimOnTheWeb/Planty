@@ -1,13 +1,74 @@
+/* class pour le nav Admin */
 .header_nav_admin_url {
   width: 100px;
   display: flex;
-  justify-content: start;
   align-items: center;
 }
 
+/* class pour le lien Admin */
 .header_nav_admin_url a {
   font-size: 16px;
   color: black;
   font-family: "Syne", Sans-serif;
   font-weight: 500;
+}
+
+/* class pour le nav et les liens elementor + lien Admin dans le nav Admin jusqu'à 425px*/
+@media all and (max-width: 425px) {
+  .hfe-nav-menu {
+    width: 150px !important;
+  }
+
+  .hfe-menu-item {
+    font-size: 12px !important;
+  }
+
+  .header_nav_admin_url a {
+    font-size: 12px;
+    justify-content: center;
+    width: 150px;
+  }
+}
+
+/* class pour les liens du menu elementor et du nav Admin jusqu'à 768px */
+@media all and (max-width: 768px) {
+  .hfe-nav-menu a {
+    width: 100% !important;
+    justify-content: end !important;
+  }
+
+  .header_nav_admin_url a {
+    justify-content: end;
+  }
+}
+
+/* class pour que le header ne dépasse pas sur le body, menu Elementor,
+lien Admin dans le nav Admin et les liens du menu Elementor */
+@media all and (max-width: 1024px) {
+  .e-con-inner {
+    padding-bottom: 30px !important;
+  }
+
+  .hfe-nav-menu {
+    display: block;
+    height: 100px;
+  }
+
+  .header_nav_admin_url a {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 5px;
+    border-bottom-color: rgb(196, 196, 196);
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+  }
+
+  .hfe-menu-item {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 180px;
+  }
 }
