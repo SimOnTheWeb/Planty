@@ -63,42 +63,27 @@ function menu_admin_page1($items) {
     return $items;
 }
 
-// Hook pour la page d'accueil
-add_filter('wp_nav_menu_items', 'menu_admin_page1', 10, 1);
-
-
-// Fonction pour la page Nous rencontrer
-function menu_admin_page2($items) {
-    $target_page_id = 287;
-
+function add_admin_link_to_menu($items, $target_page_id, $position) {
     if (is_user_logged_in() && is_page($target_page_id)) {
         $admin_link = '<li class="header_nav_admin_url"><a href="'. admin_url() .'">Admin</a></li>';
-        $position = 312;
         $items = substr_replace($items, $admin_link, $position, 0);
     }
 
     return $items;
 }
 
-// Hook pour la page Nous rencontrer
-add_filter('wp_nav_menu_items', 'menu_admin_page2', 10, 1);
+// Hook pour différentes pages
+add_filter('wp_nav_menu_items', function ($items) {
+    return add_admin_link_to_menu($items, 285, 252); // Page d'accueil
+}, 10, 1);
 
+add_filter('wp_nav_menu_items', function ($items) {
+    return add_admin_link_to_menu($items, 287, 312); // Page Nous rencontrer
+}, 10, 1);
 
-// Fonction pour la page Commander
-function menu_admin_page3($items) {
-    $target_page_id = 289;
-
-    if (is_user_logged_in() && is_page($target_page_id)) {
-        $admin_link = '<li class="header_nav_admin_url"><a href="'. admin_url() .'">Admin</a></li>';
-        $position = 257;
-        $items = substr_replace($items, $admin_link, $position, 0);
-    }
-
-    return $items;
-}
-
-// Hook pour la page Commander
-add_filter('wp_nav_menu_items', 'menu_admin_page3', 10, 1);
+add_filter('wp_nav_menu_items', function ($items) {
+    return add_admin_link_to_menu($items, 289, 257); // Page Commander
+}, 10, 1);
 
 
 // Balise de fermeture PHP
